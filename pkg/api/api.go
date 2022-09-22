@@ -26,6 +26,11 @@ import (
 
 var apiMap = map[string]apiInput{
 
+	// centris custom
+	"custom-remote-python-webcheck": {
+		apiPath: "/api/config/v1/plugins/custom.remote.python.webcheck/endpoints",
+	},
+
 	// Early adopter API !
 	"alerting-profile": {
 		apiPath: "/api/config/v1/alertingProfiles",
